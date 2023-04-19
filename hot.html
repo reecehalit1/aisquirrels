@@ -1,44 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Blank Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>AISQ - Hot Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-EpBEV7yHx/aEMO6LpiSMLCvZjl7ykZ84GVpuUq3s4QLa0U6d4U6xIBkeq3JrGQvLZjDPcm8A53P+kvn+mR46Jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <script>
+      window.ownerId = "5pqZD8hKwXa3DVHB7i6zf1QwGmJJ4Pj8EC1w7RMZ3kL9"
+      window.collectionId = "sZi9grcsx1hVxNNkBNpV"
+  </script>
+  <script type="module" src="https://storage.googleapis.com/scriptslmt/0.1.3/solana.js"></script>
+  <link rel="stylesheet" href="https://storage.googleapis.com/scriptslmt/0.1.3/solana.css">
+
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">WebSiteName</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Page 2</a></li>
-              <li><a href="#">Page 3</a></li>
+    <header>
+      <div class="logo">
+        <h1>AI SQUIRRELS</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Team</a></li>
+              <li><a href="#">FAQ</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>
-          </div>
-        </div>
+          </li>
+          <li><a href="#">What's Hot?</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
+    </header>
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Hot Page</h2>
+      </div>
+    </section>
+    <section id="mint">
+      <div class="mint-content">
+        <h2>Mint Upgrade Card.</h2>               
+        <p>Mint an upgrade card to upgrade your NFT for extra benefits!</p>
+        <img src="img/upgradecard.jpg" alt="Description of your image">
+        <div id="mint-counter"></div> 
+      </div>
+      
+      <div id="mint-button-container"></div>
+    </section>
+    <footer>
       <div class="container">
-        <h3>Collapsible Navbar</h3>
-        <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
-        <p>Only when the button is clicked, the navigation bar will be displayed.</div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023 My NFT Project. All Rights Reserved.</p>
+      </div>
+    </footer>
+    
   </body>
 </html>
