@@ -13,25 +13,22 @@
 		
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/all.min.css" integrity="sha512-EpBEV7yHx/aEMO6LpiSMLCvZjl7ykZ84GVpuUq3s4QLa0U6d4U6xIBkeq3JrGQvLZjDPcm8A53P+kvn+mR46Jw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./css/solana.css">
 	<link rel="stylesheet" type="text/css" href="chrome-extension://fleenceagaplaefnklabikkmocalkcpo/content-script/assets/fonts/webfonts.css">
 		<!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
 		
-
+		
     <script>
-      window.ownerId = "5pqZD8hKwXa3DVHB7i6zf1QwGmJJ4Pj8EC1w7RMZ3kL9"
-      window.collectionId = "sZi9grcsx1hVxNNkBNpV"
-  </script>
+        window.ownerId = "5pqZD8hKwXa3DVHB7i6zf1QwGmJJ4Pj8EC1w7RMZ3kL9"
+        window.collectionId = "DKGroMuDQKz7ljlx8RPh"
+    </script>
+    <script type="module" src="https://storage.googleapis.com/scriptslmt/0.1.3/solana.js"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/scriptslmt/0.1.3/solana.css">
 	
 	<script>
   window.console = window.console || function(t) {};
 </script>
-	
-  <script type="module" src="./js/solana.js"></script>
-  
-  
 	
 	</head>
 	
@@ -68,7 +65,7 @@
       <div class="mint-content">
         <h2>Mint Upgrade Card</h2>               
         <p>Mint an upgrade card to upgrade your NFT for extra benefits!</p>
-        <img src="./images/upgradecard.jpg" alt="AISQ Upgrade Card">
+        <img src="./images/upgrade-card-animation.gif" alt="AISQ Upgrade Card">
         <div id="mint-counter"></div> 
       </div>
       
@@ -76,7 +73,9 @@
 		
 	  </section>
 	  
-	  <section style="background-color: #111; padding-bottom: 50px;">
+	  
+	  
+	  <section style="background-color: #111; ">
 		
 		<div class="upgrade-container">
 
@@ -84,8 +83,8 @@
   <div class="scroll-element js-scroll slide-right">
 <div class="upgrade-infoleft">
       <h2>Level 1</h2>
-      <p>Cost: 1 Upgrade card + 500 $CHAOS</p>
-      <p>Perks = 50 $CHAOS per day + Rename your squirrel</p></div>
+      <p><strong>Cost:</strong> 1 Upgrade Credit + 500&nbsp;$CHAOS</p>
+      <p><strong>Perks:</strong> 50&nbsp;$CHAOS per day + Rename your squirrel</p></div>
   </div>
 </section>
 	  
@@ -93,8 +92,8 @@
   <div class="scroll-element js-scroll slide-left">
 <div class="upgrade-inforight">
          <h2>Level 2</h2>
-         <p>Cost: 2 Upgrade card + 500 $CHAOS</p>
-         <p>Perks = 75 $CHAOS per day + 0.05 $SOL lottery boost</p></div>
+         <p><strong>Cost:</strong> 2 Upgrade Credits + 500&nbsp;$CHAOS</p>
+         <p><strong>Perks:</strong> 75&nbsp;$CHAOS per day + 0.05&nbsp;$SOL lottery boost</p></div>
   </div>
 </section>
 	  
@@ -102,8 +101,8 @@
   <div class="scroll-element js-scroll slide-right">
 <div class="upgrade-infoleft">
            <h2>Level 3</h2>
-           <p>Cost: 3 Upgrade card + 500 $CHAOS</p>
-           <p>Perks = 125 $CHAOS per day + 0.10 $SOL lottery boost</p></div>
+           <p><strong>Cost:</strong> 3 Upgrade Credits + 500&nbsp;$CHAOS</p>
+           <p><strong>Perks:</strong> 125&nbsp;$CHAOS per day + 0.10&nbsp;$SOL lottery boost</p></div>
   </div>
 </section>
 	  
@@ -111,8 +110,8 @@
   <div class="scroll-element js-scroll slide-left">
 <div class="upgrade-inforight">
              <h2>Level 4</h2>
-             <p>Cost: 5 Upgrade card + 500 $CHAOS</p>
-             <p>Perks = 175 $CHAOS per day + AI your squirrel</p></div>
+             <p><strong>Cost:</strong> 5 Upgrade Credits + 500&nbsp;$CHAOS</p>
+             <p><strong>Perks:</strong> 175&nbsp;$CHAOS per day + Upgrade to Gen 1.5 artwork</p></div>
   </div>
 </section>	
 	  
@@ -120,8 +119,8 @@
   <div class="scroll-element js-scroll slide-right">
 <div class="upgrade-infoleft">
                <h2>Level 5</h2>
-               <p>Cost: 10 Upgrade card + 500 $CHAOS</p>
-               <p>Perks = 250 $CHAOS per day + 0.15 $SOL lottery boost</p></div>
+               <p><strong>Cost:</strong> 10 Upgrade Credits + 500&nbsp;$CHAOS</p>
+               <p><strong>Perks:</strong> 250 $CHAOS per day + 0.15&nbsp;$SOL lottery boost</p></div>
   </div>
 </section>
 	  
@@ -129,14 +128,86 @@
   <div class="scroll-element js-scroll slide-left">
 <div class="upgrade-inforight">
                  <h2>Level 6</h2>
-                 <p>Cost: 15 Upgrade card + 500 $CHAOS</p>
-                 <p>Perks = 250 $CHAOS per day + 0.5 $SOL lottery boost</p></div>
+                 <p><strong>Cost:</strong> 15 Upgrade card + 500&nbsp;$CHAOS</p>
+                 <p><strong>Perks:</strong> 250 $CHAOS per day + 0.5&nbsp;$SOL lottery boost</p></div>
   </div>
 </section>	
 		  
 	  </div>
 
           </section>
+	  
+	  
+	    <!--Upgrade Cards -->
+
+    <section id="gallery" style="padding-bottom: 0px;">
+
+    	<div class="gallery-container">
+        
+        <div class="gallery-image">
+        <img src="./images/aisq-upgrade-card-bg1.jpg" style="border: 1px solid #ffffff;" alt="upgrade card 1">
+        <div class="upgrade-text"><h3>Supply: 5000<br>
+Upgrade Credits: 1</h3></div>
+        </div>
+        
+        <div class="gallery-image">
+        <img src="./images/aisq-upgrade-card-bg2.jpg" style="border: 1px solid #ffffff;" alt="upgrade card 2">
+       <div class="upgrade-text"><h3>Supply: 3000<br>
+Upgrade Credits: 2
+</h3></div>
+        </div>
+        
+        <div class="gallery-image">
+        <img src="./images/aisq-upgrade-card-bg3.jpg" style="border: 1px solid #ffffff;" alt="upgrade card 3">
+        <div class="upgrade-text"><h3>Supply: 2000<br>
+Upgrade Credits: 3
+</h3></div>
+        </div>
+      </div>
+    </section>
+	  
+	  
+	  
+	  
+	  <section id="howto" style="padding-bottom: 0;">
+		  <div class="howto-container" style="padding-bottom: 0;">
+
+        <h2>How to Upgrade</h2>
+ 
+		  Each card is worth a certain amount of credits. You'll need to redeem enough cards to cover your upgrade cost.
+<br><br>
+You can only advance one level at a time. To reach level 2, you must hold a level 1 NFT. Once an upgrade is complete, you are then eligible to upgrade to the next level. 
+   
+			  </div>
+	  </section>
+	  
+	  
+	  <section id="gallery" style="padding-top: 30px;">
+
+    	<div class="gallery-container">
+        
+        <div class="gallery-image" style="max-width: 400px; text-align: left; margin-top: 0px; margin-bottom: 0px;">
+        <ol>
+<li style="padding-bottom: 10px;">Obtain $CHAOS &amp Upgrade Cards</li>
+
+<li style="padding-bottom: 10px;">Open an <a href="#" target="_blank">upgrade request ticket</a> in Discord</li>
+
+<li style="padding-bottom: 10px;">Follow the instructions within the ticket. (You will be asked to send your Upgrade Cards and $CHAOS)</li>
+
+</ol>
+        </div>
+        
+        <div class="gallery-image" style="max-width: 400px; text-align: left; margin-top: 0px; margin-bottom: 0px;">
+        <ol start="4">
+
+<li style="padding-bottom: 10px;">Await confirmation from the team. Once confirmed, your upgrade may take up to 3 working days to fulfill.</li>
+
+<li style="padding-bottom: 10px;">Take it to the next level to obtain more benefits! </li>
+</ol>
+        </div>
+        
+      </div>
+    </section>
 	  
 	  
 	  <section class="throttle-container">
