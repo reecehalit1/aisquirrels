@@ -215,6 +215,14 @@
         font-family: Lobster;
 		  color: #ba3c01;
       }
+
+      .mint-content h5 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-family: Lobster;
+		  color: #ba3c01;
+      }
   
       .mint-content img {
         margin-top: 20px;
@@ -326,11 +334,20 @@
 
 
 .upgrade-text h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Lobster;
+	  color: #ffffff;
+  }
+
+  .upgrade-text h2 {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Lobster;
 	  color: #ffffff;
   }
 
@@ -507,7 +524,6 @@ color: #ffffff;
     overflow-anchor: none;
     transition: var(--bs-accordion-transition);
 }
-
 
 
 .scroll-container:nth-of-type(even) {
@@ -741,4 +757,3 @@ color: #ffffff;
     font-size: 36px;
   }	
 }
-  
