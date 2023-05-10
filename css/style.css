@@ -291,7 +291,7 @@
     margin-bottom: 20px;
     text-align: center;
     font-family: Lobster;
-	color: #ba3c01;
+	  color: #ba3c01;
   }
 
 .gallery-text h3 {
@@ -355,7 +355,7 @@
 /* Footer Styles */
 footer {
     background-color: #252525;
-    color: #ba3c01;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
   }
